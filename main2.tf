@@ -7,5 +7,6 @@ resource "aws_instance" "tf-server3" {
   tags = {
     name     = "tf-server3"
     TeamName = "devops"
+    "sample tf without directory is possible cross checking it"
   } 
 }
